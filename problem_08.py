@@ -2,9 +2,10 @@
 # Find and fix the error
 
 def is_palindrome(text):
+     
     return text == text[::-1]
 
-word = "Racecar"
+word = "racecar"
 if is_palindrome(word):
     print(f"{word} is a palindrome")
 else:

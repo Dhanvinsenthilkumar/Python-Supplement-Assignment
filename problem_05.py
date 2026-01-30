@@ -1,7 +1,7 @@
 # Problem 5: Count vowels in a string
 # Find and fix the error
 
-text = "Hello World"
+text = "apple"
 vowels = "aeiou"
 count = 0
 for char in text:
